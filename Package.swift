@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftyMimeTypes",
     platforms: [
-        .iOS(.v8)
+        .iOS(.v9)
     ],
     products: [
         .library(name: "SwiftyMimeTypes", targets: ["SwiftyMimeTypes"])
